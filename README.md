@@ -1,6 +1,8 @@
 # AIStudent
 A curriculum for dipping your toes in Fullstack AI
 
+Welcome to the AI Society Student course, this course given by old students is made for students who are interested in learning about AI and its applications. The course is designed to be a hands-on experience, where you will be working on projects and learning by doing. The course is designed to be a 8-week course, the course is designed to be a beginner-friendly course, so no prior knowledge is required. The course is designed to be a full-stack AI course, so you will be learning about the full stack of AI, from data collection to deployment.
+
 ## Schedule
 1. January 23rd, Thursday 17:30 - 19:30, Room V1
 2. January 30th, Thursday 17:30 - 19:30
