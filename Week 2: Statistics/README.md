@@ -1,3 +1,9 @@
+# Slides
+
+The slides of this week can be found [here](/Week%202:%20Statistics/slides/build/main.pdf)
+
+
+
 # Installing Required Packages with `uv`
 For this week we will work with external packages like `numpy`, `scipy`, `pandas`, `matplotlib`, `statsmodels` and `sklearn`. To do this, we recommend you to use `uv` for managing your virtual environment. You can install it by running `pip install uv`. Thereafter, you can just do `uv run <name_of_file.py>` to run your code if there is an inline dependency like
 
