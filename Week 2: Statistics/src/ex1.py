@@ -28,11 +28,35 @@ print(f"Standard Deviation: {std_dev}")
 ###################################
 # Visualize the data here         #
 
+fig, axes = plt.subplots(2, 2, figsize=(12, 10))
 
-plt.hist(data['Score'], bins=10, edgecolor='black')
-plt.xlabel('Score')
-plt.ylabel('Frequency')
-plt.title('Histogram of Student Scores')
+# Histogram
+axes[0, 0].hist(data['Score'], bins=10, edgecolor='black')
+axes[0, 0].set_xlabel('Score')
+axes[0, 0].set_ylabel('Frequency')
+axes[0, 0].set_title('Histogram of Student Scores')
+
+# Box plot
+axes[0, 1].boxplot(data['Score'], vert=False)
+axes[0, 1].set_ylabel('Score')
+axes[0, 1].set_title('Box Plot of Student Scores')
+
+# Scatter plot
+axes[1, 0].scatter(data['Score'], data['Student_ID'])
+axes[1, 0].set_xlabel('Score')
+axes[1, 0].set_ylabel('Student_ID')
+axes[1, 0].set_title('Scatter Plot of Student Scores vs Student_ID')
+
+# Bar chart
+axes[1, 1].bar(data['Student_ID'], data['Score'])
+axes[1, 1].set_xlabel('Student_ID')
+axes[1, 1].set_ylabel('Score')
+axes[1, 1].set_title('Bar Chart of Student Scores')
+# Rotate x-axis labels for better readability
+axes[1, 1].tick_params(axis='x', rotation=45)
+
+# Adjust layout to prevent overlap
+plt.tight_layout()
 plt.show()
 
 ##################################
