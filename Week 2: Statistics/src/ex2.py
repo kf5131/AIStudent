@@ -86,7 +86,7 @@ print("\n")
 # 3. Monte Carlo simulation to estimate π
 
 # Number of points to generate
-n_points = 10000
+n_points = 100000000
 
 # Generate random points in unit square
 x = np.random.uniform(0, 1, n_points)
