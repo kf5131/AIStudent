@@ -2,8 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load the data
-data = pd.read_csv('data/Student_Scores_Data.csv')
+data = pd.read_csv('Week 2: Statistics/data/Student_Scores_Data.csv')
 
 # Display the first few rows of the data
 print(data.head())
