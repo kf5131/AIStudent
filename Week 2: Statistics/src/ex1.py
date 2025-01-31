@@ -27,8 +27,15 @@ print(f"Standard Deviation: {std_dev}")
 
 ###################################
 # Visualize the data here         #
-# #### TODO ####                  #
-###################################
+
+
+plt.hist(data['Score'], bins=10, edgecolor='black')
+plt.xlabel('Score')
+plt.ylabel('Frequency')
+plt.title('Histogram of Student Scores')
+plt.show()
+
+##################################
 
 # Check out matplotlib's functions for creating these visualizations
 # Here: https://matplotlib.org/stable/gallery/index.html
