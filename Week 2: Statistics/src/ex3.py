@@ -28,9 +28,11 @@ predicted_prices = model.predict(X)
 
 ###################################
 # Evaluate the model here         #
-###################################
 
 mse = mean_squared_error(y, predicted_prices)
+print(f"Mean Squared Error: {mse}")
+
+###################################
 
 # Plot the data and the regression line
 plt.scatter(X, y, color='blue', label='Actual Prices')
