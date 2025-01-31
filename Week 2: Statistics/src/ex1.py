@@ -11,7 +11,13 @@ print(data.head())
 
 ###################################
 # Compute the statistics here     #
-# #### TODO ####                  #
+mean = np.mean(data['Score'])
+median = np.median(data['Score'])
+std_dev = np.std(data['Score'])
+
+print(f"Mean: {mean}")
+print(f"Median: {median}")
+print(f"Standard Deviation: {std_dev}")
 ###################################
 
 # Check out numpy's functions for calculating these statistics
