@@ -49,7 +49,7 @@ You have a duckdb database `who.db`, which has 3 tables:
 3. Standard world population according to: Ahmad OB, Boschi-Pinto C, Lopez AD, Murray CJ, Lozano R, Inoue M (2001). Age standardization of rates: a new WHO standard
 
 ## Task 1.
-Compare the deaths per 100k people in Uganda and the United States during 2019 using the WHO standard from Lozano R, Inoue M (2001).
+Compare the deaths per 100k people in Uganda and the United States during 2019 using the WHO standard from Lozano R, Inoue M (2001). Hint read the paper to understand why we need the standard.
 
 ## Task 2.
 What would be special with Namibia when you wrangle it? (Inspect it's row in a pandas dataframe).
